@@ -6,8 +6,8 @@
 module.exports = {
   resolve: {
     alias: {
-      'beast-utils': require('path').join(__dirname, '../beast-utils'),
-      'beast-lib': require('path').join(__dirname, '../beast-lib'),
+      'jh-utils': require('path').join(__dirname, '../jh-utils'),
+      'jh-lib': require('path').join(__dirname, '../jh-lib'),
     },
   },
 };

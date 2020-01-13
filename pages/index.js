@@ -1,7 +1,7 @@
 import styles from './index.css';
-import {sort, recursiveMap, isObjectValEqual} from 'beast-utils'
-import {BtButton, Result} from 'beast-lib'
-import * as BtLib from 'beast-lib'
+import {sort, recursiveMap, isObjectValEqual} from 'jh-utils'
+import {ButtonComp, Result} from 'jh-lib'
+import * as jhConfig from 'jh-lib/es/indexConfig'
 // import * as aa from 'antd/es/index'
 // import 'antd/dist/antd.css';
 import React from "react";
@@ -30,9 +30,9 @@ export default function () {
         {name: '小松'}
     ];
 
-    map(BtLib, (BItem, bInd) => {
-        console.log(isFunction(BItem), isFunction(React.Component));
-        // return <BItem key={bInd}>xxx</BItem>
+    map(jhConfig, (Item, ind) => {
+        console.log(isFunction(Item), isFunction(React.Component));
+        // return <Item key={ind}>xxx</Item>
     })
     // console.info(isFunction(BtButton));
 
@@ -52,8 +52,8 @@ export default function () {
             {/*<BtLayout.Content>Content</BtLayout.Content>*/}
             {/*<BtLayout.Footer>Footer</BtLayout.Footer>*/}
             {/*</BtLayout>*/}
-            <h1>beast-lib</h1>
-            <BtButton>xxx</BtButton>
+            <h1>jh-lib</h1>
+            <ButtonComp>xxx</ButtonComp>
             <Result type={"info"} title={'xxx'}/>
             {/*<Button>xxx</Button>*/}
             {

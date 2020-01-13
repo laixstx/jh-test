@@ -38,8 +38,8 @@ export default {
 
     // 设置 alias
     // console.log(require('path').join(__dirname, '../beast-utils/dist/beast.esm.js'))
-    config.resolve.alias.set('beast-utils', require('path').join(__dirname, '../beast-utils'));
-    config.resolve.alias.set('beast-lib', require('path').join(__dirname, '../beast-lib'));
+    config.resolve.alias.set('jh-utils', require('path').join(__dirname, '../jh-utils'));
+    config.resolve.alias.set('jh-lib', require('path').join(__dirname, '../jh-lib'));
 
     // // 删除进度条插件
     // config.plugins.delete('progress');

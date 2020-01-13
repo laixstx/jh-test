@@ -17,7 +17,7 @@
     "umi-plugin-react": "^1.14.11"
   },
   "scripts": {
-    "dev": "umi dev",
+    "start": "umi dev",
     "analyze": "set ANALYZE=true && yarn build",
     "build": "umi build",
     "umi:g": "umi g",
